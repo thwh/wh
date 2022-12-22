@@ -3,8 +3,9 @@ html {
 }
 
 body {
-    background-color: #80220d;
-    font-family: "Courier", courier, monospace;
+    background-image: url(graphpaper.jpg);
+    background-size: 100%;
+    font-family: "Courier New", courier, monospace;
     font-size: 1rem;
     margin: 0rem 0rem;
 }
@@ -17,7 +18,8 @@ div.title {
 }
 
 div.text {
-    background-color: #ececed;
+    background-color: #190909;
+    color: #e7e5f7;
     margin: 0rem 0rem 4rem 0rem;
     padding: 0.1rem 0rem;
     border-radius: 1rem;
@@ -32,8 +34,7 @@ hr {
 }
 
 h1 {
-    font-family: "Arial Black", "Gill Sans", arial, serif;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     font-style: normal;
     text-align: left;
     margin: 0rem 0rem;
@@ -42,11 +43,10 @@ h1 {
 }
 
 h2 {
-    font-family: "Arial Black", "Gill Sans", arial, serif;
     font-size: 1.5rem;
     font-style: normal;
     text-align: left;
-    color: #80220d;
+    color: #ececed;
 }
 
 h4 {
@@ -67,8 +67,7 @@ li {
 }
 
 a {
-    /* color: #37b082; */
-    color: #2c826a;
+    color: #ff7728;
 }
 
 a.email {
