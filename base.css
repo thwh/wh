@@ -1,0 +1,89 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-image: url(graphpaper.jpg);
+    background-size: 100%;
+    font-family: "Courier New", courier, monospace;
+    font-size: 1rem;
+    margin: 0rem 0rem;
+}
+
+div.title {
+    margin: 0rem 0rem;
+    padding: 1rem 1rem;
+    align: center;
+    text-align: left;
+}
+
+div.text {
+    background-color: #190909;
+    color: #e7e5f7;
+    margin: 0rem 0rem 4rem 0rem;
+    padding: 0.1rem 0rem;
+    border-radius: 1rem;
+}
+
+div.section {
+    padding: 0rem 1rem;
+}
+
+hr {
+    border-top: 1px solid #888;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: normal;
+    text-align: left;
+    margin: 0rem 0rem;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+    color: #ececed;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-align: left;
+    color: #ececed;
+}
+
+h4.email {
+    font-size: 1rem;
+    font-weight: normal;
+    text-align: left;
+    margin: 0rem 0rem;
+    color: #000;
+}
+
+ul {
+    margin-left: 0rem;
+    padding-left: 1rem;
+}
+
+li {
+    list-style: square;
+}
+
+a {
+    color: #bb6868;
+    text-decoration: none;
+}
+
+a.email {
+    color: #bb6868;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+/* tablets and up */
+@media only screen and (min-device-width: 700px){
+    div.title {
+        margin: 0rem 5rem;
+    }
+    div.text {
+        margin: 0rem 5rem 4rem 5rem;
+        padding: 0.1rem 0rem;
+    }
+}
